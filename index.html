@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>manama2.5 background2</title>
+<meta  charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<style type="text/css">
+
+/*.thumbnail{width: 40%;}*/
+.glyphicon{font-size: 22px;vertical-align:bottom;}
+.bg{background: url(image/5.jpg) no-repeat center center;height: 300px;margin:10px 0;background-size: cover;}
+.bg h1{margin: 0;padding-top:117px;font-size: 60px;color: red; }
+.btn-warning{margin-left: 10px;}
+.footer{padding: 30px 0;background-color:#CFD744;}
+
+@media (max-width:560px){
+  .bg h1{padding-top:85px;font-size: 30px;}
+  .bg{height: 200px;}
+
+}
+</style>
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="bg">
+  <div class="row text-center">
+    <div class="col-sm-12">
+    <a href="#" class="btn btn-warning btn-lg pull-right">subscribe</a>
+    <a href="#" class="btn btn-warning btn-lg pull-right">contact us</a>
+    <h1>Manama Properties</h1>
+    </div>
+  </div>
+  </div>    
+<div class="row">
+	<div class="col-sm-2">
+    <div class="row">
+      <div class="col-sm-12">
+	   <ul class="nav nav-pills nav-stacked">
+ 	   <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+ 	   <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Feature</a></li>
+     <li><a href="#"><span class="glyphicon glyphicon-search"></span>Experts</a></li>
+     <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>Quiz</a></li>
+     <li><a href="#"><span class="glyphicon glyphicon-flag"></span>Projects</a></li>
+     <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span>Horoscope</a></li>
+     </ul>
+     </div>
+     <div class="col-sm-12">
+      <p>Mr. Phileas Fogg lived, in 1872, at No. 7, Saville Row, Burlington
+Gardens, the house in which Sheridan died in 1814.  He was one of the
+most noticeable members of the Reform Club, though he seemed always to
+avoid attracting attention; an enigmatical personage, about whom little
+was known, except that he was a polished man of the world.  People said
+that he resembled Byron--at least that his head was Byronic; but he was
+a bearded, tranquil Byron, who might live on a thousand years without
+growing old.</p>
+     </div>
+    </div>
+	</div>
+	<div class="col-sm-6">
+    <div class="row">
+  <div class="col-sm-8">
+    <h4 class="text-success">Add a clearing element at the bottom of the containing div.</h4>
+    <p>This solution is themost straightforward. Simply add a tag—like a line break or horizontal rule—asthe last item in the div containing the floated element (that is, right before the
+closing div tag). Then use the clear property to force that extra tag below
+the float. This trick makes the enclosing div expand, revealing its background
+and border. You cn add a line break br (HTML) or br (XHTML)—before
+the closing div tag and add a class to it: br class="clear". Then create
+a style for it, like this:</p>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+    <a href="image/5.jpg">  
+    <img src="image/5.jpg" class="img-responsive" alt="Green wood 1">
+    <div class="caption">
+          <p>Lorem ipsum...</p>
+    </div>
+    </a>
+  </div>
+  </div>
+  </div>
+  
+  <div class="row">  
+  <div class="col-sm-8">
+    <h4 class="text-success">Float the containing element.</h4>
+    <p> An easier way is to just float the div containing
+the floated elements as well. A floated container div expands to fully
+contain any floated elements inside it. In Figure 13-9, top, the div containing
+the heading and two floated columns is floated to the left of the page. In the
+process, its entire box—background and borders—expands to fit everything
+inside it, including the floated elements. Strange, but true.
+If you go this route, make sure you add a clear property to whatever element
+follows the floated container to make sure the following element drops below
+the container.</p>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+    <a href="image/6.jpg">  
+    <img src="image/6.jpg" class="img-responsive" alt="green wood 2">
+    <div class="caption"><p>image 6 </div>
+    </a>
+    </div>
+  </div>
+
+   
+</div>
+
+      <div class="row">
+  <div class="col-sm-8">
+    <h4 class="text-success">Use overflow hidden.</h4>
+    <p> Another common technique is to add the following two
+properties to a style for the containing block:
+overflow: hidden;
+The overflow:hidden property is just another one of those weird CSS things:
+It forces the containing block to expand and contain the floated elements. In
+general, this technique works very well. However, if you have any absolutely
+positioned elements (see page 410) inside the container, they may not show up.
+You can get into this situation if you have a drop-down menu inside another tag
+and the drop-downs, when they appear, are supposed to appear outside the
+container element. If that’s the case, use one of the other methods described
+on these pages.</p>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+    <a href="image/7.jpg">  
+    <img src="image/7.jpg" class="img-responsive" alt="Red Tree">
+    <div class="caption"><p>image 7</p></div>
+    </a>  
+    </div>
+    </div>
+    </div>
+  </div>
+   
+	<div class="col-sm-4">
+		<div class="well">
+			<h3>NEWS</h3>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					With this technique, created by Nicolas Gallagher, you
+add just a few styles and a class name to the tag containing the floated element.
+This technique is the latest in a long evolution of methods that use the
+
+				</div>	
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					To use it, you add two different styles to your style sheet: One
+applies to all modern browsers; the other style applies to IE 7 and earlier. The
+whole shebang looks like this
+				</div>	
+			</div>
+			<div class="panel panel-danger">
+				<div class="panel-heading">
+					That outer div grows to be as tall as the tallest element inside it, so even if the maindiv is very tall, that wrapper div will be just as tall. Here’s the magic: Create a stylefor the wrapper div with a background image the width of the sidebar, in thebackground color you want for the sidebar. That way, if the background image tilesvertically, it forms a solid bar the height of the wrapper div (Figure 13-9, top).
+				</div>	
+			</div>			
+		</div>	
+	</div>	
+</div>
+
+<div class="footer text-center">
+	<h3 class="text-danger">copy-right reserved by Rezwan Islam.</h3>
+</div>    
+</div> <!--end container-fluid--> 	
+</body>
+</html>
